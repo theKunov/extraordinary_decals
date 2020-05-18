@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
     <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Jost:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -14,15 +15,18 @@
 </head>
 
 <body>
+        <a href="top"></a>
     <header>
         <nav>
-            <ul>
-                <li><button href="" class="dropbtn "><a href="#info">За нас</a> </button></li>
+            <ul> 
+                <li>
+                    <button href="" class="dropbtn" onclick="location.href='#info'"><a>За нас</a> </button>
+                </li>
                 <li>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#vilki">Вилки</a> </button>
+                        <button class="dropbtn" onclick="location.href='#vilki'"><a >Вилки</a> </button>
                         <div class="dropdown-content">
-                            <a href="#"><img
+                            <a href="#rockshock"><img
                                     src="./images/378-3784517_rockshox-logo-png-transparent-rock-shox-logo-png.png"
                                     alt=""> </a>
                             <a href="#"><img src="./images/fox-logo-eps-png-fox-racing-logo-vector-1600.png" alt="">
@@ -32,7 +36,7 @@
                 </li>
                 <li >
                     <div class="dropdown" >
-                        <button class="dropbtn" ><a href="#kapli">Капли</a> </button>
+                        <button class="dropbtn" onclick="location.href='#kapli'"><a>Капли</a> </button>
                         <div class="dropdown-content"  >
                             <a href="#" ><img src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt="">
                             </a>
@@ -55,7 +59,7 @@
                 </li>
                 <li>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#ramki">Рамки</a> </button>
+                        <button class="dropbtn" onclick="location.href='#ramki'"><a>Рамки</a> </button>
                         <div class="dropdown-content">
                             <a href="#"><img src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt="">
                             </a>
@@ -64,7 +68,7 @@
                         </div>
                     </div>
                 </li>
-                <li><button href="" class="dropbtn "><a href="#section1">Начало</a> </button></li>
+                <li><button href="" class="dropbtn" onclick="location.href='#top'"><a href="#top">Начало</a> </button></li>
             </ul>
 
         </nav>
@@ -76,23 +80,26 @@
 
             <h1 id="vilki">Вилки да го еба</h1>
 
-            <h3>FoxBox</h3>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
-            <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
-                    src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+            <h3 id="rockshock">FoxBox</h3>
+            <div>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+                <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
+                        src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
+            </div>
+            
             <h3>RockShock</h4>
                 <a href="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" data-lightbox="mygallery"><img
                         src="./images/13253_rockshox_xc30tk_forks_27_5_2014-750x750.jpg" alt=""></a>
