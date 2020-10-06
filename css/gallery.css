@@ -1,0 +1,42 @@
+  
+
+  main {
+    margin-top: 100px;
+  }
+  h1{
+    color: blanchedalmond;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+  }
+  h3 {
+    color: blanchedalmond;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .gallery a {
+    margin-left: 20px;
+    
+  }
+  
+  .gallery img {
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+ 
+  .gallery img:hover{
+    filter: grayscale(80%);
+    transform: scale(1.2);
+  }
+
+  .category {
+    text-align: center;
+  }
+  .category h1{
+    text-align: center;
+  }
+  .category img {
+      width: 200px;
+  }
