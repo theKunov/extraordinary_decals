@@ -1,13 +1,21 @@
-@media (max-width:370px) {
-    body {
-      font-size: 10px;
-    }
-  }
-@media (max-width:435px) {
+@media screen and (max-width:435px) {
     body {
       font-size: 16px;
     }
-  
+    
+    ul li {
+      float: left;
+    }
   }
 
-  
+  @media screen and (max-width:360px) {
+    body {
+      font-size: 15px;
+    }
+    .dropbtn {
+      font-size: 0.7em;
+    }
+    ul li {
+      float: left;
+    }
+  }

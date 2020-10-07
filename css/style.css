@@ -1,7 +1,5 @@
-
 @import url("./gallery.css");
 
-@import url("./media.css");
 
 html{
   scroll-behavior: smooth;
@@ -13,25 +11,21 @@ html, body {
   font-size: 20px;
 }
 
-body {
-  
+body { 
   background-image: linear-gradient(#28313B 0%, #485461 80%);
-  
-  
 }
 
 /* navbar */
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(#3a7bd5, #3a6073);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#3a7bd5, #3a6073);
+  position: fixed;
+  top: 0;
+  width: 100%;
     
 }
 
@@ -215,4 +209,3 @@ button:hover:after{
     margin-bottom: 10px;
   }
   
- 
